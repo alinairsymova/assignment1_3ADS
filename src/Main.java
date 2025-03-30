@@ -19,5 +19,8 @@ public class Main {
         }
         double endTime = System.nanoTime();
         double duration = (endTime - startTime) / 1000000 ;
+
+        System.out.println("Factorial of " + number + " is " + factorial);
+        System.out.println("Execution time: " + duration );
     }
 }
