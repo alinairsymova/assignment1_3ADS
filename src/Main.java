@@ -13,6 +13,10 @@ public class Main {
 
         double startTime = System.nanoTime();
 
+        long factorial = 1;
+        for (int i = 1; i <= number; i++) {
+            factorial *= i;
+        }
 
     }
 }
