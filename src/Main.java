@@ -17,6 +17,7 @@ public class Main {
         for (int i = 1; i <= number; i++) {
             factorial *= i;
         }
-
+        double endTime = System.nanoTime();
+        double duration = (endTime - startTime) / 1000000 ;
     }
 }
