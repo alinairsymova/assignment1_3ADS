@@ -10,5 +10,9 @@ public class Main {
             System.out.println("Factorial of a negative number is undefined.");
             return;
         }
+
+        double startTime = System.nanoTime();
+
+
     }
 }
