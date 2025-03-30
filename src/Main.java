@@ -11,7 +11,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Enter number for factorial:");
+        System.out.print("Enter number for factorial: ");
         int number = scanner.nextInt(); // Ask user to enter a number of factorial
 
         if (number < 0) { // Chek if there is negative number
